@@ -8404,6 +8404,8 @@ h5 {
 .team .team-head p,
 .team .team-item span {
     font-family: "Open sans";
+    text-align: justify;
+    text-justify: inter-word;S
 }
 
 .about-cn .about-text .about-description {
