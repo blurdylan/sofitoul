@@ -18,11 +18,11 @@
 html {
     margin: 0 0 1px;
     padding: 0;
-    min-height: 100%;
+    min-height: 100%; 
 }
 
 body {
-    font-family: Lato, Arial, Verdana;
+    font-family: "Hind Madurai";
     font-size: 14px;
     background-color: #f1f1f1;
 }
