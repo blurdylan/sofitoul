@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400%7COpen+Sans:300,400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" href="css/library/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" href="css/library/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="tb-cell">
+            <div id="page-loading">
+                <div></div>
+                <p>Loading</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="wrap">
+        <header id="header" class="header">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="#" title=""><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+                    <div class="nav-inner">
+                        <a href="#" class="bars-close" id="bars-close">Close</a>
+                        <div class="tb">
+                            <div class="tb-cell">
+                                <ul class="menu-list text-uppercase">
+                                    <li class="current-menu-parent">
+                                        <a href="#" title="">Accueil</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Qui sommes-nous?</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Nos Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Nos références</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="banner-slide" id="banner-slide">
+                <div class="banner-slide-item" data-src="images/background/douala.jpg"></div>
+                <div class="banner-slide-item" data-src="images/background/buea.jpg"></div>
+                <div class="banner-slide-item" data-src="images/background/yaounde.jpg"></div>
+            </div>
+            <div class="container">
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="images/logo-banner.png" alt=""></a>
+                </div>
+                <div class="banner-cn">
+                    <ul class="tabs-cat text-center row">
+                        <li class="cate-item col-xs-3">
+                            <a data-toggle="tab" href="#form-flight" title="">
+                                <span>vol</span>
+                                <img src="images/icon-flight.png" alt="">
+                            </a>
+                        </li>
+                        <li class="cate-item active col-xs-3">
+                            <a data-toggle="tab" href="#form-hotel" title="">
+                                <span>Hotel</span>
+                                <img src="images/icon-hotel.png" alt="">
+                            </a>
+                        </li>
+                        <li class="cate-item col-xs-3">
+                            <a data-toggle="tab" href="#form-car" title="">
+                                <span>Vehicule</span>
+                                <img src="images/icon-car.png" alt="">
+                            </a>
+                        </li>
+
+                        <li class="cate-item col-xs-3">
+                            <a data-toggle="tab" href="#form-cruise" title="">
+                                <span>Tourisme</span>
+                                <img src="images/icon-tour.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="form-cn form-car tab-pane active in" id="form-hotel">
+                            <h2>Reserver dans un de nos hôtels partenaires</h2>
+                            <div class="form-search clearfix">
+                                <div class="form-field field-destination">
+                                    <label for="destination">
+                                           <span>Destination:</span> Ville</label>
+                                    <input type="text" id="destination" class="field-input">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Du">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Au">
+                                </div>
+                                <div class="form-field field-select">
+                                    <div class="select">
+                                        <span>Personnes</span>
+                                        <select>
+                                              <option>Personnes</option>
+                                              <option>1 Personne</option>
+                                              <option>2 Personnes</option>
+                                              <option>3 Personnes</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="button" class="btn btn-primary" style="background-color: rgb(33, 56, 136) !important; height: 3em; width: 3em"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-cn form-car tab-pane" id="form-car">
+                            <h2>Reserver pour une de nos voitures en location</h2>
+                            <div class="form-search clearfix">
+                                <div class="form-field field-from">
+                                    <label for="flight-from">
+                                          <span>Depart:</span> Villes, Aeroport</label>
+                                    <input type="text" name="flightfrom" id="flight-from" class="field-input">
+                                </div>
+                                <div class="form-field field-to">
+                                    <label for="flight-to">
+                                          <span>Destination :</span> Villes, Aeroport</label>
+                                    <input type="text" id="flight-to" class="field-input">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Du:">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Au:">
+                                </div>
+
+                                <div class="form-submit">
+                                    <button type="button" class="btn btn-primary" style="background-color: rgb(33, 56, 136) !important; height: 3em; width: 3em"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-cn form-cruise tab-pane" id="form-cruise">
+                            <h2>Reserver pour un circuit touristique ou une excursion</h2>
+                            <div class="form-search clearfix">
+                                <div class="form-field field-destination">
+                                    <label for="destination2">
+                                        <span>Destination:</span> Villes</label>
+                                    <input type="text" id="destination2" class="field-input">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Du:">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Au:">
+                                </div>
+                                <div class="form-submit">
+                                    <button type="button" class="btn btn-primary" style="background-color: rgb(33, 56, 136) !important; height: 3em; width: 3em"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-cn form-flight tab-pane" id="form-flight">
+                            <h2>Où aimeriez vous partir?</h2>
+                            <div class="form-search clearfix">
+                                <div class="form-field field-from">
+                                    <label for="flight-from">
+                                          <span>Depart:</span> Pays, Aeroport</label>
+                                    <input type="text" name="flightfrom" id="flight-from" class="field-input">
+                                </div>
+                                <div class="form-field field-to">
+                                    <label for="flight-to">
+                                          <span>Destination :</span> Pays, Aeroport</label>
+                                    <input type="text" id="flight-to" class="field-input">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Depart le:">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Retour le:">
+                                </div>
+                                <div class="form-field field-select field-adult">
+                                    <div class="select">
+                                        <span>Adultes</span>
+                                        <select>
+                                                <option>Adultes</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="form-field field-select field-children">
+                                    <div class="select">
+                                        <span>Enfants</span>
+                                        <select>
+                                                <option>Enfants</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="button" class="btn btn-primary" style="background-color: rgb(33, 56, 136) !important; height: 3em; width: 3em"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-cn form-package tab-pane" id="form-package">
+                            <h2>Where would you like to go?</h2>
+                            <ul class="form-radio">
+                                <li>
+                                    <div class="radio-checkbox">
+                                        <input type="radio" name="radio-1" id="radio-1" class="radio">
+                                        <label for="radio-1">Flight + Hotel</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio-checkbox">
+                                        <input type="radio" name="radio-1" id="radio-2" class="radio">
+                                        <label for="radio-2">Flight + Hotel +Car</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio-checkbox">
+                                        <input type="radio" name="radio-1" id="radio-3" class="radio">
+                                        <label for="radio-3">Hotel +Car</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio-checkbox">
+                                        <input type="radio" name="radio-1" id="radio-4" class="radio">
+                                        <label for="radio-4">Flight +Car</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="form-search clearfix">
+                                <div class="form-field field-from">
+                                    <label for="filghtfrom">
+                                                                                    <span>Flight From:</span> Airport...</label>
+                                    <input type="text" id="filghtfrom" class="field-input">
+                                </div>
+                                <div class="form-field field-to">
+                                    <label for="flightto">
+                                                                                    <span>To:</span> Country, Airport</label>
+                                    <input type="text" id="flightto" class="field-input">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Departing">
+                                </div>
+                                <div class="form-field field-date">
+                                    <input type="text" class="field-input calendar-input" placeholder="Returning">
+                                </div>
+                                <div class="form-field field-select field-adults">
+                                    <div class="select">
+                                        <span>Adults</span>
+                                        <select>
+                                                                                            <option>Adults</option>
+                                                                                            <option>1</option>
+                                                                                            <option>2</option>
+                                                                                            <option>3</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-field field-select field-children">
+                                    <div class="select">
+                                        <span>Children</span>
+                                        <select>
+                                                                                            <option>Children</option>
+                                                                                            <option>1</option>
+                                                                                            <option>2</option>
+                                                                                            <option>3</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="button" class="btn btn-primary" style="background-color: rgb(33, 56, 136) !important; height: 3em; width: 3em"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-cn form-tour tab-pane" id="form-tour">
+                            <h2>Where would you like to go?</h2>
+                            <div class="form-search clearfix">
+                                <div class="form-field field-select field-region">
+                                    <div class="select">
+                                        <span>Region:
+                                                                                            <small>Wourldwide, africa..</small>
+                                                                                    </span>
+                                        <select>
+                                                                                            <option>Africa</option>
+                                                                                            <option>1</option>
+                                                                                            <option>2</option>
+                                                                                            <option>3</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-field field-select field-country">
+                                    <div class="select">
+                                        <span>Country</span>
+                                        <select>
+                                                                                            <option>Country</option>
+                                                                                            <option>Viet Nam</option>
+                                                                                            <option>Thai Lan</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-field field-select field-style">
+                                    <div class="select">
+                                        <span>Tour Style</span>
+                                        <select>
+                                                                                            <option>Style One</option>
+                                                                                            <option>1</option>
+                                                                                            <option>2</option>
+                                                                                            <option>3</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="button" class="btn btn-primary" style="background-color: rgb(33, 56, 136) !important; height: 3em; width: 3em"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sales">
+            <div class="title-wrap">
+                <div class="container">
+                    <div class="travel-title float-left">
+                        <h2>Nos vehicules: <span>Dans les différentes villes du Cameroun</span></h2>
+                    </div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir tout</a></div>
+            </div>
+    </div>
+    
+    </div>
+    <div class="container">
+        <div class="sales-cn">
+            <div class="row">
+                <div class="col-xs-6 col-md-4">
+                    <div class="sales-item">
+                        <figure class="home-sales-img">
+                            <a href="#" title=""><img src="images/car/suzuki.png" alt=""></a>
+                            <figcaption>Economiser <span>20</span>%</figcaption>
+                        </figure>
+                        <div class="home-sales-text">
+                            <div class="home-sales-name-places">
+                                <div class="home-sales-name"><a href="#" title="">Suzuki swift</a></div>
+                                <div class="home-sales-places"><a href="#" title="">5 places</a>, <a href="#" title="">Essence</a></div>
+                            </div>
+                            <hr class="hr">
+                            <div class="price-box"><span class="price old-price">From <del>170000FCFA</del></span> <span class="price special-price">140000 FCFA<small>/jour</small></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <div class="sales-item">
+                        <figure class="home-sales-img">
+                            <a href="#" title=""><img src="images/car/mazda.jpg" alt=""></a>
+                            <figcaption>Economiser <span>40</span>%</figcaption>
+                        </figure>
+                        <div class="home-sales-text">
+                            <div class="home-sales-name-places">
+                                <div class="home-sales-name"><a href="#" title="">Mazda</a></div>
+                                <div class="home-sales-places"><a href="#" title="">5 places</a>, <a href="#" title="">Gazoil</a></div>
+                            </div>
+                            <hr class="hr">
+                            <div class="price-box"><span class="price old-price">From <del>120000 FCFA</del></span> <span class="price special-price">75000FCFA<small>/jour</small></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <div class="sales-item">
+                        <figure class="home-sales-img">
+                            <a href="#" title=""><img src="images/car/mercedes.jpg" alt=""></a>
+                            <figcaption>Economiser <span>30</span>%</figcaption>
+                        </figure>
+                        <div class="home-sales-text">
+                            <div class="home-sales-name-places">
+                                <div class="home-sales-name"><a href="#" title="">Mercedes 4x4</a></div>
+                                <div class="home-sales-places"><a href="#" title="">5 places</a>, <a href="#" title="">Gazoil</a></div>
+                            </div>
+                            <hr class="hr">
+                            <div class="price-box"><span class="price old-price">From <del>200000FCFA</del></span> <span class="price special-price">175000FCA<small>/jour</small></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="destinations">
+        <div class="title-wrap">
+            <div class="container">
+                <div class="travel-title float-left">
+                    <h2>Les meilleurs circuits touristiques</h2>
+                </div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir tout</a></div>
+        </div>
+        <div class="destinations-cn">
+            <div class="bg-parallax bg-2"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="intro-filter">
+                            <div class="intro">
+                                <p><small>Découvrez</small><br><span>30</span> destinations</p>
+                                <p><small>Avec plus de </small><br><span>100</span> hôtels partenaires</p>
+                            </div>
+                            <ul class="filter">
+                                <li class="active"><a data-toggle="tab" href="#destinations-1"><i class="fa fa-map-marker"></i> Nous vous recommandons</a></li>
+                                <li><a data-toggle="tab" href="#destinations-2"><i class="fa fa-map-marker"></i> Australie &amp; Oceanie</a></li>
+                                <li><a data-toggle="tab" href="#destinations-3"><i class="fa fa-map-marker"></i> Asie</a></li>
+                                <li><a data-toggle="tab" href="#destinations-4"><i class="fa fa-map-marker"></i> Europe</a></li>
+                                <li><a data-toggle="tab" href="#destinations-5"><i class="fa fa-map-marker"></i> USA &amp; Canada</a></li>
+                                <li><a data-toggle="tab" href="#destinations-6"><i class="fa fa-map-marker"></i> Reste du monde</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-9">
+                        <div class="tab-content destinations-grid">
+                            <div id="destinations-1" class="clearfix tab-pane fade active in">
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Londre - Angleterre</a></div><span class="properties-nb"><ins>4</ins> hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-1.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Paris - France</a></div><span class="properties-nb">6 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-2.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Rome - Italie</a></div><span class="properties-nb">2 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-3.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Barcelone - Espagne</a></div><span class="properties-nb">3 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-4.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Madrid - Espagne</a></div><span class="properties-nb">3 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-5.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Vienne - Espagne</a></div><span class="properties-nb">2 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-6.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="destinations-2" class="clearfix tab-pane fade">
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">London - UK</a></div><span class="properties-nb"><ins>1289</ins> hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-1.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Paris - France</a></div><span class="properties-nb">239 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-2.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Rome - Italy</a></div><span class="properties-nb">478 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-3.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Barcelona - Spain</a></div><span class="properties-nb">452 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-4.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Madrid - Spain</a></div><span class="properties-nb">794 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-5.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
+                                    <div class="destinations-item">
+                                        <div class="destinations-text">
+                                            <div class="destinations-name"><a href="#" title="">Vienna - Austria</a></div><span class="properties-nb">1289 hôtels partenaires</span></div>
+                                        <figure class="destinations-img">
+                                            <a href="#" title=""><img src="images/destinations/img-6.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="magazine">
+        <div class="title-wrap">
+            <div class="container">
+                <div class="travel-title float-left">
+                    <h2>Dernières actualités</h2>
+                </div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir tout</a></div>
+        </div>
+        <div class="container">
+            <div class="magazine-cn">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="magazine-ds">
+                            <div id="owl-magazine-ds">
+                                <div class="magazine-item">
+                                    <div class="magazine-header">
+                                        <h2>Actualité #1</h2>
+                                        <ul>
+
+                                        </ul>
+                                        <hr class="hr">
+                                    </div>
+                                    <div class="magazine-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra, nunc in consequat finibus, lectus dolor mollis elit, sit amet eleifend justo sem et dui. Praesent non lectus venenatis, ullamcorper tortor
+                                            et, molestie urna. Vivamus vel dolor neque. Ut vitae nibh sit amet leo lobortis consequat in at ante. In hac habitasse platea dictumst. Donec dapibus purus eu elit sagittis feugiat. Vestibulum elementum dolor
+                                            ipsum, vel vestibulum justo mattis in. Fusce non ex eget ex facilisis eleifend nec eu ipsum. </p>
+
+                                        <p>Donec nunc erat, scelerisque quis pulvinar rutrum, congue tristique sapien. Aliquam nec neque molestie, scelerisque justo nec, viverra nibh. Quisque vel leo a felis porta auctor a eget magna. Sed arcu lorem, dapibus
+                                            et hendrerit ac, convallis vitae magna. Quisque vitae mauris sollicitudin, auctor magna vitae, luctus turpis. Mauris a libero eget ligula pulvinar viverra. Nulla eu dapibus ipsum. Nullam ullamcorper mauris ac
+                                            sagittis facilisis. Sed ut malesuada lorem. Nullam vel erat arcu. .</p>
+                                    </div>
+                                    <div class="magazine-footer clearfix">
+                                        <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir plus</a></div>
+                                </div>
+                                <div class="magazine-item">
+                                    <div class="magazine-header">
+                                        <h2>Actualité #2</h2>
+                                        <ul>
+                                            <li>by <a href="#" title="">Admin</a></li>
+                                            <li>03.5.2017</li>
+                                        </ul>
+                                        <hr class="hr">
+                                    </div>
+                                    <div class="magazine-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra, nunc in consequat finibus, lectus dolor mollis elit, sit amet eleifend justo sem et dui. Praesent non lectus venenatis, ullamcorper tortor
+                                            et, molestie urna. Vivamus vel dolor neque. Ut vitae nibh sit amet leo lobortis consequat in at ante. In hac habitasse platea dictumst. Donec dapibus purus eu elit sagittis feugiat. Vestibulum elementum dolor
+                                            ipsum, vel vestibulum justo mattis in. Fusce non ex eget ex facilisis eleifend nec eu ipsum. </p>
+
+                                        <p>Donec nunc erat, scelerisque quis pulvinar rutrum, congue tristique sapien. Aliquam nec neque molestie, scelerisque justo nec, viverra nibh. Quisque vel leo a felis porta auctor a eget magna. Sed arcu lorem, dapibus
+                                            et hendrerit ac, convallis vitae magna. Quisque vitae mauris sollicitudin, auctor magna vitae, luctus turpis. Mauris a libero eget ligula pulvinar viverra. Nulla eu dapibus ipsum. Nullam ullamcorper mauris ac
+                                            sagittis facilisis. Sed ut malesuada lorem. Nullam vel erat arcu. .</p>
+                                    </div>
+                                    <div class="magazine-footer clearfix">
+                                        <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir plus</a></div>
+                                </div>
+                                <div class="magazine-item">
+                                    <div class="magazine-header">
+                                        <h2>Actualité #3</h2>
+                                        <ul>
+                                            <li>by <a href="#" title="">Admin</a></li>
+                                            <li>03.5.2017</li>
+                                        </ul>
+                                        <hr class="hr">
+                                    </div>
+                                    <div class="magazine-body">
+                                        <p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur,
+                                            eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
+                                        <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.<br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse
+                                            eu libero odio.</p>
+                                        <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.<br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
+                                    </div>
+                                    <div class="magazine-footer clearfix">
+                                        <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir plus</a></div>
+                                </div>
+                                <div class="magazine-item">
+                                    <div class="magazine-header">
+                                        <h2>Actualité #4</h2>
+                                        <ul>
+                                            <li>by <a href="#" title="">Admin</a></li>
+                                            <li>03.5.2017</li>
+                                        </ul>
+                                        <hr class="hr">
+                                    </div>
+                                    <div class="magazine-body">
+                                        <p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur,
+                                            eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
+                                        <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.<br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse
+                                            eu libero odio.</p>
+                                        <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.<br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
+                                    </div>
+                                    <div class="magazine-footer clearfix">
+                                        <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Voir plus</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="magazine-thum" id="magazine-thum">
+                            <div class="thumnail-item active clearfix">
+                                <figure class="float-left"><img src="images/magazine/img-3.jpg" alt=""></figure>
+                                <div class="thumnail-text">
+                                    <h4>Actualité #1</h4><span>03.5.2017</span></div>
+                            </div>
+                            <div class="thumnail-item clearfix">
+                                <figure class="float-left"><img src="images/magazine/img-3.jpg" alt=""></figure>
+                                <div class="thumnail-text">
+                                    <h4>Actualité #2</h4><span>03.5.2017</span></div>
+                            </div>
+                            <div class="thumnail-item clearfix">
+                                <figure class="float-left"><img src="images/magazine/img-3.jpg" alt=""></figure>
+                                <div class="thumnail-text">
+                                    <h4>Actualité #3</h4><span>03.5.2017</span></div>
+                            </div>
+                            <div class="thumnail-item clearfix">
+                                <figure class="float-left"><img src="images/magazine/img-4.jpg" alt=""></figure>
+                                <div class="thumnail-text">
+                                    <h4>Actualité #4</h4><span>03.5.2017</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="confidence-subscribe">
+        <div class="bg-parallax bg-3"></div>
+        <div class="container">
+            <div class="row cs-sb-cn">
+                <div class="col-md-6">
+                    <div class="confidence">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><span class="label-nb">01</span>
+                                <h5>Billeterie aérienne</h5>
+                                <p>Réservez vos billets de voyage aérien à tout moment</p>
+                            </li>
+                            <li><span class="label-nb">02</span>
+                                <h5>Tourisme et Loisir</h5>
+                                <p>Visitez différents endroits à travers le monde</p>
+                            </li>
+                            <li><span class="label-nb">03</span>
+                                <h5>Location de véhicules</h5>
+                                <p>Louez un véhicule de votre choix pour une durée définie</p>
+                            </li>
+                            <li><span class="label-nb">04</span>
+                                <h5>MICE / Evènementiel</h5>
+                                <p>Nous planifions et structurons vos événements</p>
+                            </li>
+                            <li><span class="label-nb">05</span>
+                                <h5>Change et transfert de fonds</h5>
+                                <p>Echange monétaire</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="subscribe">
+                        <h3>Souscrivez à notre newsletter</h3>
+                        <p>Laissez votre e-mail pour recevoir les notifications sur nos différentes promotions</p>
+                        <div class="subscribe-form">
+                            <form action="#" method="get"><input type="text" name="" value="" placeholder="Email" class="subscribe-input"> <button type="submit" class="awe-btn awe-btn-5 arrow-right text-uppercase awe-btn-lager">Confirmer</button></form>
+                        </div>
+                        <div class="follow-us">
+                            <h4>Suivez nous</h4>
+                            <div class="follow-group">
+                                <a href="#" title="">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#" title="">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" title="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo-foter">
+                        <a href="#" title=""><img style="height:100px;" src="images/logo2.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="ul-ft">
+                        <ul>
+                            <li><a href='#' title="">Accueil</a></li>
+                            <li><a href="#" title="">Qui sommes-nous ?</a></li>
+                            <li><a href="#" title="">Nos services</a></li>
+                            <li><a href="#" title="">Nos références</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="ul-ft">
+                        <ul>
+                            <li><a href="#" title="">Louer une auto</a></li>
+                            <li><a href="#" title="">Diaporama</a></li>
+                            <li><a href="#" title="">Actualités</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 ">
+                    <div class="currency-lang-bottom dropdown-cn float-left">
+                        <div class="dropdown-head"><span class="angle-down"><i class="fa fa-angle-down"></i></span></div>
+                        <div class="dropdown-body">
+                            <ul>
+                                <li class="current"><a href="#" title="">English</a></li>
+                                <li><a href="#" title="">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="copyright">Copyrights © 2017 SOFITOUL Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+    <script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/library/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/library/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/library/parallax.min.js"></script>
+    <script type="text/javascript" src="js/library/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/library/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/library/jquery.mb.YTPlayer.min.js"></script>
+    <script type="text/javascript" src="js/library/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+
+</html>

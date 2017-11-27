@@ -986,6 +986,10 @@ blockquote:before {
     color: #111;
 }
 
+.travel-title h1{
+    color: #ee3124;
+    font-weight: 600;
+}
 .sort-view .sort-by .sort-select,
 .sort-view .sort-by label,
 .sort-view .view-by ul li a,
