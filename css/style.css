@@ -9,6 +9,18 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+.service-title{
+    color:red;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding: 0.5em;
+}
+.service{
+    height:6em;
+    cursor: pointer;
+}
+
 .reference:hover{
     -webkit-filter: none; /* Safari 6.0 - 9.0 */
     filter: none;
@@ -16,8 +28,14 @@
     -ms-transform: scale(1.5);
     transform: scale(1.5);
 }
-
+iframe{
+    height: auto;
+}
 .ref-title{
+    padding: 0.5em;
+    color:  #0e2240e6;
+}
+.serv-title{
     padding: 0.5em;
     color:  #0e2240e6;
 }
@@ -25,6 +43,15 @@
 .ref-div{
     padding: 3em;
     text-align: center;
+}
+.serv-div{
+    padding: 3em;
+    text-align: center;
+}
+.serv-div:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .form-search .form-field label,
