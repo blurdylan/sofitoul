@@ -47,6 +47,7 @@ iframe{
 .serv-div{
     padding: 3em;
     text-align: center;
+    transition: transform 200ms;
 }
 .serv-div:hover{
     -webkit-transform: scale(1.5);
