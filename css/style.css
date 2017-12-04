@@ -2514,7 +2514,6 @@ blockquote:before {
 }
 
 .banner .banner-slide {
-    filter: blur(1px) brightness(0.7);
     position: absolute;
     top: 0;
     left: 0;
