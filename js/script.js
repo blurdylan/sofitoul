@@ -631,7 +631,7 @@
           t = e.data("map-latlng").split(",")[0],
           i = e.data("map-latlng").split(",")[1],
           s = e.data("map-content"),
-          o = new google.maps.LatLng(t, i),
+          o = new google.maps.LatLng(3.885982, 11.510858),
           l = {
             center: o,
             zoom: n,
@@ -639,7 +639,7 @@
             mapTypeId: google.maps.MapTypeId.ROADMAP
           },
           r = new google.maps.Map(document.getElementById("contact-maps"), l),
-          c = new google.maps.Marker({ position: o });
+          c = new google.maps.Marker({ position: new google.maps.LatLng(t,i) });
         c.setMap(r);
         var d = new google.maps.InfoWindow({ content: s, maxWidth: 200 });
         google.maps.event.addListener(c, "click", function() {
