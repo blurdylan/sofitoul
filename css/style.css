@@ -9,6 +9,9 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Assistant|Philosopher');
+
 .service-title{
     color:red;
     font-size: 14px;
@@ -396,7 +399,7 @@ body.menu-active {
 }
 
 .awe-btn {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     text-decoration: none;
     background-color: transparent;
     border: 1px solid #dedede;
@@ -559,7 +562,7 @@ body.menu-active {
 
 .panel-group .panel .panel-body,
 .panel-group .panel .panel-heading .panel-title {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .breadcrumb li.active,
@@ -769,7 +772,7 @@ body.menu-active {
 
 .alert-box h6,
 .alert-box span {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     color: #333;
 }
 
@@ -905,7 +908,7 @@ body.menu-active {
 
 .ui-datepicker .ui-datepicker-header .ui-datepicker-title {
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 48px;
@@ -918,7 +921,7 @@ body.menu-active {
 
 .ui-datepicker .ui-datepicker-calendar th {
     font-weight: 600;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 14px;
     padding: 20px 3px 15px;
 }
@@ -940,7 +943,7 @@ body.menu-active {
     color: #333;
     font-size: 14px;
     font-weight: 300;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -970,7 +973,7 @@ body.menu-active {
 
 .select {
     position: relative;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .select span {
@@ -1010,7 +1013,7 @@ blockquote {
 
 blockquote p {
     color: #666;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 14px;
     margin: 0;
     line-height: 25px;
@@ -1041,12 +1044,13 @@ blockquote:before {
 .travel-title h1{
     color: #ee3124;
     font-weight: 600;
+    font-family: 'Pacifico', cursive !important;
 }
 .sort-view .sort-by .sort-select,
 .sort-view .sort-by label,
 .sort-view .view-by ul li a,
 .title-wrap .travel-title .select {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .title-wrap {
@@ -1069,7 +1073,7 @@ blockquote:before {
 }
 
 .title-wrap .travel-title span.span-departure {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     color: #333;
     font-size: 16px;
     font-weight: 400;
@@ -1291,7 +1295,7 @@ blockquote:before {
 .widget-rate li,
 .widget-ul li {
     line-height: 25px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .widget-sidebar .title-sidebar span {
@@ -1435,7 +1439,7 @@ blockquote:before {
 .slider-sidebar label {
     position: absolute;
     color: #999;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     bottom: -25px;
     line-height: 1;
@@ -1512,7 +1516,7 @@ blockquote:before {
 .form-search .form-field {
     position: relative;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     color: rgb(33, 56, 136);
     line-height: 29px;
 }
@@ -1635,7 +1639,7 @@ blockquote:before {
 .form-contact .form-field label {
     color: #333;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 400;
     margin: 0;
 }
@@ -1659,7 +1663,7 @@ blockquote:before {
     width: 100%;
     border: 1px solid #dfdfdf;
     outline: 0;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     padding: 14px 20px;
     resize: none;
     -webkit-border-radius: 0;
@@ -1730,7 +1734,7 @@ blockquote:before {
 
 .nav ul li a,
 .radio-checkbox label {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .radio-checkbox label {
@@ -2580,8 +2584,9 @@ blockquote:before {
 }
 
 .form-cn h2 {
+    text-align: center;
     margin: 0;
-    color: #333;
+    color: #FF1033;
     font-size: 32px;
 }
 
@@ -3035,7 +3040,7 @@ blockquote:before {
 .sales-item .home-sales-text .home-sales-name-places .home-sales-places {
     color: #999;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .sales-item .home-sales-text .home-sales-name-places .home-sales-places a {
@@ -3065,7 +3070,7 @@ blockquote:before {
 .sales-item .home-sales-text .price-box .price {
     color: #999;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     display: block;
 }
 
@@ -3274,8 +3279,8 @@ blockquote:before {
 .magazine-item .magazine-header h2 {
     margin: 0;
     color: #111;
-    font-weight: 300;
-    font-size: 50px;
+    font-weight: 500;
+    font-size: 28px;
     line-height: 50px;
 }
 
@@ -3326,7 +3331,7 @@ blockquote:before {
     color: #333;
     font-size: 14px;
     line-height: 25px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .magazine-item .magazine-body p {
@@ -3419,7 +3424,7 @@ blockquote:before {
 .confidence ul li p,
 .confidence ul li span,
 .subscribe p {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .confidence-subscribe {
@@ -3780,7 +3785,7 @@ h5 {
 .hotel-list-item .hotel-text p,
 .maps-item .maps-text address,
 .maps-item .maps-text p {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cruise-deal-item .cruise-img img,
@@ -3951,7 +3956,7 @@ h5 {
     display: inline-block;
     margin: 0 0 0 5px;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 14px;
 }
 
@@ -4211,7 +4216,7 @@ h5 {
 .maps-item .maps-text .price {
     color: #999;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .maps-item .maps-text .price ins {
@@ -4238,7 +4243,7 @@ h5 {
 .top-list-car {
     line-height: 40px;
     padding: 15px 30px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .top-list-car span {
@@ -4304,7 +4309,7 @@ h5 {
 .car-list-cn .car-list-table td.td-car figure figcaption {
     margin-top: 2px;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     line-height: 25px;
 }
 
@@ -4318,7 +4323,7 @@ h5 {
 
 .car-list-cn .car-list-table td.td-price .price-box .price {
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     display: block;
     line-height: 30px;
 }
@@ -4406,14 +4411,14 @@ h5 {
 
 .package-item .package-text .package-address {
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     margin: 0;
 }
 
 .package-item .package-text p {
     margin: 0;
     color: #666;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     line-height: 20px;
     font-style: italic;
@@ -4459,7 +4464,7 @@ h5 {
     color: #666;
     display: block;
     line-height: 26px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
@@ -4662,7 +4667,7 @@ h5 {
     margin-top: 5px;
     color: #666;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cruise-deal-item .cruise-text .cruise-night span {
@@ -4681,7 +4686,7 @@ h5 {
 .cruise-deal-item .cruise-text .price-box .price {
     color: #999;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     display: block;
 }
 
@@ -4766,7 +4771,7 @@ h5 {
     padding: 0;
     line-height: 22px;
     font-weight: 400;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     color: #333;
     margin: 0;
@@ -4790,7 +4795,7 @@ h5 {
     color: #666;
     display: block;
     line-height: 32px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
@@ -4818,7 +4823,7 @@ h5 {
 .cruise-item .cruise-text .price-box .price.night ins {
     color: #333;
     font-size: 18px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cruise-list .page-navigation-cn {
@@ -4956,7 +4961,7 @@ h5 {
 .flight-deal-item .flight-text .flight-price {
     color: #666;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     line-height: 32px;
 }
 
@@ -4972,7 +4977,7 @@ h5 {
 .chart .chart-bar .ul-bar li .date-day,
 .flight-list-head p,
 .flight-statis h5 {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .calendar-charts {
@@ -5171,7 +5176,7 @@ h5 {
 .chart .chart-bar .ul-month li .month-wrap span {
     color: #666;
     font-size: 13px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 600;
     background-color: #fff;
     padding-left: 10px;
@@ -5308,7 +5313,7 @@ h5 {
 .flight-list-cn .flight-table th {
     border: 0;
     background: url(../images/bg-border-v.png) top left repeat-x;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .flight-list-cn .flight-table th {
@@ -5549,7 +5554,7 @@ h5 {
     color: #333;
     display: inline-block;
     margin: 0;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .head-detail ul {
@@ -5561,7 +5566,7 @@ h5 {
 .head-detail ul li {
     display: inline-block;
     color: #666;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .head-detail ul li:before {
@@ -5580,7 +5585,7 @@ h5 {
 .price-book {
     margin: 0;
     color: #999;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .price-book span {
@@ -5591,7 +5596,7 @@ h5 {
 .support {
     color: #333;
     font-size: 16px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     right: 15px;
     font-style: italic;
     font-weight: 300;
@@ -5671,7 +5676,7 @@ h5 {
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .detail-footer .detail-footer-cn .review-more a:hover {
@@ -5813,7 +5818,7 @@ h5 {
 .detail-sidebar .hight-light .vote-text small {
     color: #838383;
     font-weight: 300;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-size: 14px;
     display: block;
     margin-top: 10px;
@@ -5822,7 +5827,7 @@ h5 {
 .detail-sidebar .hight-light .vote-text a {
     color: #049905;
     font-size: 12px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 300;
     text-decoration: none;
 }
@@ -5888,7 +5893,7 @@ h5 {
     width: 25%;
     display: block;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 600;
 }
 
@@ -5902,7 +5907,7 @@ h5 {
 .hl-customer-like .customer-like ul li {
     color: #666;
     line-height: 24px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .hl-customer-like .customer-like ul li:before {
@@ -5975,7 +5980,7 @@ h5 {
 .service-check-rate h2 {
     color: #333;
     font-size: 18px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     margin: 0;
     font-weight: 600;
 }
@@ -5999,7 +6004,7 @@ h5 {
     padding: 12px;
     font-weight: 600;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .featured-service .service-spoken li,
@@ -6007,7 +6012,7 @@ h5 {
 .hotel-detail-map p,
 .policies-item p,
 .service-check-rate .tb-service-check-rate td {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .service-check-rate .tb-service-check-rate td {
@@ -6190,7 +6195,7 @@ h5 {
 .featured-service .service-list li figure figcaption {
     display: inline-block;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .featured-service .service-list li.unselected figure .icon-service:after {
@@ -6275,7 +6280,7 @@ h5 {
 
 .about-area-text p {
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     line-height: 1.8em;
 }
 
@@ -6307,7 +6312,7 @@ h5 {
 .review-st .rule-point span,
 .review-vote .vote-number,
 .review-vote p {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .review-tabs-cn {
@@ -6490,7 +6495,7 @@ h5 {
 .review-item,
 .review-item .btn,
 .review-item .date {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .review-vote p span strong {
@@ -6976,7 +6981,7 @@ h5 {
 .cabin-type-cn .cabin-type-tabel,
 .cruise-overview-item .text,
 .popup-room-desc p {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .popup-room-desc {
@@ -7383,7 +7388,7 @@ h5 {
 .optional-list p,
 .room-detail .room-desc p,
 .tour-detail-text {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cruise-overview-book {
@@ -7560,7 +7565,7 @@ h5 {
 .date-picker-price .date-head {
     text-align: center;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     border: 1px solid #dedede;
     margin-top: 30px;
     border-bottom-width: 0;
@@ -7614,7 +7619,7 @@ h5 {
 }
 
 .date-picker-price .data-price thead th {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     text-align: right;
     padding: 15px 12px;
     font-weight: 600;
@@ -7625,7 +7630,7 @@ h5 {
     padding: 20px 12px;
     border: 1px solid #dedede;
     text-align: center;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     color: #333;
     font-size: 13px;
 }
@@ -7789,7 +7794,7 @@ h5 {
 .widget_archive ul li a,
 .widget_categories ul li a,
 .widget_recent_entries ul li a {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
@@ -7885,7 +7890,7 @@ h5 {
     display: block;
     float: left;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     border: 1px solid #dedede;
     padding: 5px 9px;
     margin-left: 5px;
@@ -8041,7 +8046,7 @@ h5 {
     line-height: 25px;
     color: #333;
     font-size: 14px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     margin: 40px 0 0;
 }
 
@@ -8154,7 +8159,7 @@ h5 {
 
 .post-single .post-content {
     margin-top: 30px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     color: #333;
     font-size: 14px;
     line-height: 25px;
@@ -8243,7 +8248,7 @@ h5 {
     display: inline-block;
     font-size: 18px;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 700;
 }
 
@@ -8261,7 +8266,7 @@ h5 {
 .post-single .author-about .author-info p {
     color: #333;
     line-height: 28px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     margin: 15px 0 0;
 }
 
@@ -8319,7 +8324,7 @@ h5 {
 
 .commentlist .comment .comment-body {
     position: relative;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     margin-left: 105px;
 }
 
@@ -8458,7 +8463,7 @@ h5 {
 .about-cn .about-text .about-description,
 .team .team-head p,
 .team .team-item span {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .about-cn .about-text .about-description {
@@ -8557,7 +8562,7 @@ h5 {
     font-style: italic;
     display: inline-block;
     color: #fff;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .twitter .twitter-item ul li:first-child:before {
@@ -8640,7 +8645,7 @@ h5 {
 .payment-form span,
 .payment-room .payment-info ul li,
 .payment-room .payment-price {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .contact-cn ul {
@@ -9261,7 +9266,7 @@ h5 {
 .cart-cn .tb-cart .date {
     color: #333;
     display: block;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cart-cn .tb-cart .group-date .date+.date {
@@ -9287,7 +9292,7 @@ h5 {
 .cart-cn .tb-cart .price small {
     color: #999;
     font-size: 13px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cart-cn .tb-cart .group-price .price {
@@ -9298,7 +9303,7 @@ h5 {
     width: 90px;
     border-bottom: 1px dashed #b0b0b0;
     margin: 0 auto;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 600;
 }
 
@@ -9307,7 +9312,7 @@ h5 {
 .cart-flight h2,
 .cart-room h2,
 .cart-room ul li {
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cart-cn .tb-cart .select span {
@@ -9370,7 +9375,7 @@ h5 {
 
 .cart-flight .airline span {
     color: #666;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cart-flight .stop-cn {
@@ -9509,7 +9514,7 @@ h5 {
     font-size: 13px;
     color: #333;
     margin-top: 5px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cart-car .car-img {
@@ -9541,7 +9546,7 @@ h5 {
     margin: 0;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .cart-cruise ul {
@@ -9611,7 +9616,7 @@ h5 {
 .element-sc .element-cn .tab-pane {
     padding-top: 25px;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     line-height: 25px;
 }
 
@@ -9950,7 +9955,7 @@ h5 {
     color: #999;
     font-weight: 600;
     padding-top: 12px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     padding-bottom: 12px;
 }
 
@@ -9958,7 +9963,7 @@ h5 {
     border-top-width: 0;
     padding: 15px;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     border-bottom: 1px dotted #999;
     vertical-align: middle;
 }
@@ -10020,7 +10025,7 @@ h5 {
     padding-left: 150px;
     padding-top: 15px;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .my-profile ul li span {
@@ -10045,7 +10050,7 @@ h5 {
 
 .user-profile .check-box label {
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 0;
@@ -10087,7 +10092,7 @@ h5 {
     color: #33b057;
     border-radius: 0;
     padding: 7px 20px;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
     font-weight: 600;
     font-size: 16px;
     margin-top: 50px;
@@ -10121,7 +10126,7 @@ h5 {
     padding: 14px 10px;
     width: 100%;
     color: #333;
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 .user-form .field-input .awe-btn {
@@ -10197,7 +10202,7 @@ footer {
     background-color: #fff;
     padding-bottom: 10px;
     border-top: solid 5px rgb(33, 56, 136);
-    font-family: "Calibri";
+    font-family: 'Assistant', sans-serif;
 }
 
 footer .logo-foter img {
@@ -10414,7 +10419,7 @@ footer .copyright {
         font-size: 22px;
     }
     .magazine-item .magazine-header h2 {
-        font-size: 40px;
+        font-size: 28px;
         line-height: 40px;
     }
     .magazine-thum {
