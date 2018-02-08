@@ -297,8 +297,27 @@ section {
 }
 
 .bg-10 {
-    background-image: url(../images/background/bg-10.html);
+    background-image: url(../images/background/bg-10.jpg);
 }
+
+/* Top Images */
+
+.bg-contact {
+    background-image: url(../images/background/contact.jpg);
+}
+.bg-cars {
+    background-image: url(../images/background/car.jpg);
+}
+.bg-references {
+    background-image: url(../images/background/references.jpg);
+}
+.bg-services {
+    background-image: url(../images/background/services.jpg);
+}
+.bg-about {
+    background-image: url(../images/background/about.jpg);
+}
+
 
 .tb-cell {
     display: table-cell;
