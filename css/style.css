@@ -311,6 +311,9 @@ section {
 .bg-references {
     background-image: url(../images/background/references.jpg);
 }
+.bg-gallery {
+    background-image: url(../images/background/gallery.jpg);
+}
 .bg-services {
     background-image: url(../images/background/services.jpg);
 }
