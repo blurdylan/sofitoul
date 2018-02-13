@@ -311,11 +311,17 @@ section {
 .bg-references {
     background-image: url(../images/background/references.jpg);
 }
+.bg-gallery {
+    background-image: url(../images/background/gallery.jpg);
+}
 .bg-services {
     background-image: url(../images/background/services.jpg);
 }
 .bg-about {
     background-image: url(../images/background/about.jpg);
+}
+.bg-events {
+    background-image: url(../images/background/events.jpg);
 }
 
 
