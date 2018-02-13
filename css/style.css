@@ -317,6 +317,9 @@ section {
 .bg-about {
     background-image: url(../images/background/about.jpg);
 }
+.bg-events {
+    background-image: url(../images/background/events.jpg);
+}
 
 
 .tb-cell {
