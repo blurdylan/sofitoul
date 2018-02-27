@@ -11,7 +11,10 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Assistant|Philosopher');
-
+.banner-slide{
+    -webkit-filter:  brightness(60%); /* Safari 6.0 - 9.0 */
+    filter: brightness(60%) !important;
+}
 .service-title{
     color:red;
     font-size: 14px;
@@ -2611,8 +2614,9 @@ blockquote:before {
 .form-cn h2 {
     text-align: center;
     margin: 0;
-    color: #FF1033;
-    font-size: 32px;
+    color: rgb(33, 56, 136);
+    font-size: 2em;
+    font-family: Calibri;
 }
 
 .form-cn .form-search {
@@ -4872,7 +4876,6 @@ h5 {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
 
 .flight-deal-item:hover .flight-img figcaption {
@@ -10347,7 +10350,7 @@ footer .copyright {
         padding: 15px 20px 20px;
     }
     .form-cn h2 {
-        font-size: 22px;
+        font-size: 2em;
     }
     .form-cn .form-radio li {
         padding-top: 10px;
