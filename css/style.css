@@ -74,17 +74,19 @@ padding: 0.3em;
     cursor: pointer;
 }
 
-.page-search {float:right;width:auto;height:385px;margin:0px 31px 0px 0px;background:transparent;}
+.page-search {float:right;width:auto;height:385px;margin:0px 31px 0px 0px;background:transparent; 
+    font-family: 'Lato', cursive !important;}
 .page-search.full-width-search {float:none;width:100%;height:385px;margin:0px 0px 0px 0px;background:transparent;}
 .page-search.full-width-search .search-tab-content {width:100%;}
-.search-tab-content {display:none;}
+.search-tab-content {display:none; 
+    font-family: 'Lato', cursive !important;}
 .search-tab-content:first-child {display:block;}
 .page-search.full-width-search .page-search-tabs {width:347px;}
-.search-tab {height:35px;display:inline-block;margin:0px 3px 0px 0px;float:left;text-align:center;font-size:12px;color:#fff;text-transform:uppercase;	font-family:'Montserrat';background:#233E83;cursor:pointer;padding:14px 33px 0px 33px;}
+.search-tab {font-family: 'Lato', cursive !important; font-weight: 700;  height:35px;display:inline-block;margin:0px 2px 0px 0px;float:left;text-align:center;font-size:12px;color:#fff;text-transform:uppercase;background:#233E83;cursor:pointer;padding:14px 33px 0px 33px;}
 .search-tab.nth {margin-right:0px;float:right;}
 .search-tab.active {background:#fff;cursor:default;color:#000000;}
 .page-search-content {min-height:120px;background:#fff;}
-.page-search-p {padding:26px 21px 29px 21px;}
+.page-search-p {font-family: 'Lato', cursive !important ; padding:26px 21px 29px 21px;}
 .full-width-search .page-search-p {padding:26px 21px 21px 21px;}
 .page-search-content label {display:block;font-size:11px;color:#4c4c4c;text-transform:uppercase;font-family:'Raleway';font-weight:600;margin-bottom:9px;}
 .search-line {margin:0px 0px 18px 0px;}
@@ -104,8 +106,9 @@ padding: 0.3em;
    font-family: "Raleway";
    font-size: 11px;
    text-transform:uppercase;
+   font-family: 'Lato', cursive !important;
 }
-.search-line input[type='text'] {border:1px solid #e3e3e3;background:#fff;width:284px;border-radius:3px;padding:9px 8px 9px 8px;text-transform:uppercase;font-family:'Raleway'; font-size: 11px; color:#8a8a8a;	 -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05);-moz-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05); box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05);}
+.search-line input[type='text'] {font-family: 'Lato', cursive !important; border:1px solid #e3e3e3;background:#fff;width:284px;border-radius:3px;padding:9px 8px 9px 8px;text-transform:uppercase;font-family:'Raleway'; font-size: 11px; color:#8a8a8a;	 -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05);-moz-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05); box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05);}
 .search-line-a {float:left;width:140px;margin:0px 0px 18px 0px;	}
 .full-width-search .search-line-a {width:auto;margin-right:19px;margin-bottom:0px;}
 .search-line-b {float:right;width:140px;margin:0px 0px 18px 0px;	}
@@ -142,8 +145,11 @@ padding: 0.3em;
 .search-footer {border-top:1px solid #f8f1eb;padding:23px 21px 30px 22px;}
 .search-asvanced {display:none;padding-top:17px;}
 
+label{
+    font-family: 'Lato', cursive !important;
+}
 /*Searching*/
-.srch-btn {display:block;width:102px; padding-top: 5px; height:24px;background:#EF3C2E; border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;text-align:center;font-size:11px;text-decoration:none;color:#fff; border:0px;margin-top:1px;float:left;font-family: 'Montserrat';font-weight:normal;text-transform:uppercase;}
+.srch-btn {    font-family: 'Lato', cursive !important; display:block;width:102px; padding: 10px; background:#EF3C2E; border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;text-align:center;font-size:11px;text-decoration:none;color:#fff; border:0px;margin-top:1px;float:left;font-family: 'Montserrat';font-weight:normal;text-transform:uppercase;}
 button.srch-btn {cursor: pointer; font-family: 'Montserrat'; padding-top: 5px; font-size:11px; font-weight:normal; float: none; margin-top:21px; height:34px;}
 .srch-btn:hover {
 	background:rgb(233, 95, 85);
@@ -167,10 +173,11 @@ button.srch-btn {cursor: pointer; font-family: 'Montserrat'; padding-top: 5px; f
 .clear {clear:both;}
  
 .select-wrapper {padding-right:2px;}
-.srch-tab-line {margin-bottom:17px;} 
+.srch-tab-line {font-family: 'Lato', cursive !important; margin-bottom:17px;} 
 .srch-tab-line.no-margin-bottom {margin-bottom:0px;}
 .srch-tab-line select {cursor:pointer;} 
 .srch-tab-line .custom-select {
+    font-family: 'Lato', cursive !important;
 	cursor:pointer;
 	width:100% !important;
  	height:32px;
@@ -191,9 +198,9 @@ button.srch-btn {cursor: pointer; font-family: 'Montserrat'; padding-top: 5px; f
 
          
 .srch-lbl {
+    font-family: 'Lato', cursive !important;
 	cursor:pointer;
 	float:right;
-	font-family: 'Raleway';
 	font-weight:500;
 	color:#566065;
 	margin:12px 0px 0px 0px;
