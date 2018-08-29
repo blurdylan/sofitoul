@@ -196,7 +196,7 @@ $(document).ready(function() {
         .find(".search-asvanced")
         .hide();
       $(this)
-        .text("Advanced Search options")
+        .text("Recherche Avancée")
         .removeClass("open");
     } else {
       $(this)
@@ -204,7 +204,7 @@ $(document).ready(function() {
         .find(".search-asvanced")
         .fadeIn();
       $(this)
-        .text("close search options")
+        .text("Fermer")
         .addClass("open");
     }
   });

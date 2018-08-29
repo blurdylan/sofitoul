@@ -133,9 +133,9 @@
 					<!-- // search // -->
 					<div class="page-search search-type-a">
 						<nav class="page-search-tabs">
-							<div class="search-tab active">SOFCAR</div>
-							<div class="search-tab">SOFTOUR</div>
-							<div class="search-tab nth">SOFTRAVEL</div>
+							<div class="search-tab active">VEHICULES</div>
+							<div class="search-tab">TOUR</div>
+							<div class="search-tab nth">BILLETERIE</div>
 							<div class="clear"></div>
 						</nav>
 						<div class="page-search-content">
@@ -144,27 +144,35 @@
 								<div class="page-search-p">
 									<!-- // -->
 									<div class="srch-tab-line">
-										<label>Place / hotel name</label>
-										<div class="input-a"><input type="text" value="" placeholder="Example:france"></div>
+										<label>Ville</label>
+										<div class="input-a">
+											<input type="text" value="" placeholder="Douala, Cameroun">
+										</div>
 									</div>
 									<!-- // -->
 									<!-- // -->
 									<div class="srch-tab-line">
 										<div class="srch-tab-left">
-											<label>Check in</label>
-											<div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+											<label>Date prise</label>
+											<div class="input-a">
+												<input type="text" value="" class="date-inpt" placeholder="mm/dd/yy">
+												<span class="date-icon"></span>
+											</div>
 										</div>
 										<div class="srch-tab-right">
-											<label>Check out</label>
-											<div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+											<label>Date rendue</label>
+											<div class="input-a">
+												<input type="text" value="" class="date-inpt" placeholder="mm/dd/yy">
+												<span class="date-icon"></span>
+											</div>
 										</div>
 										<div class="clear"></div>
 									</div>
 									<!-- \\ -->
 									<!-- // -->
 									<div class="srch-tab-line no-margin-bottom">
-										<div class="srch-tab-3c">
-											<label>Rooms</label>
+										<div class="srch-tab-left">
+											<label>Portieres</label>
 											<div class="select-wrapper">
 												<select class="custom-select">
 													<option>--</option>
@@ -175,68 +183,26 @@
 												</select>
 											</div>
 										</div>
-										<div class="srch-tab-3c">
-											<label>adult</label>
+										<div class="srch-tab-right">
+											<label>Type</label>
 											<div class="select-wrapper">
 												<select class="custom-select">
 													<option>--</option>
-													<option>1</option>
-													<option>2</option>
-													<option>3</option>
-													<option>4</option>
+													<option>Diesel</option>
+													<option>Super</option>
 												</select>
 											</div>
 										</div>
-										<div class="srch-tab-3c">
-											<label>Child</label>
-											<div class="select-wrapper">
-												<select class="custom-select">
-													<option>--</option>
-													<option>1</option>
-													<option>2</option>
-													<option>3</option>
-													<option>4</option>
-												</select>
-											</div>
-										</div>
+
 										<div class="clear"></div>
 									</div>
 									<!-- \\ -->
 									<!-- // advanced // -->
-									<div class="search-asvanced">
-										<!-- // -->
-										<div class="srch-tab-line">
-											<div class="srch-tab-left">
-												<label>hotel stars</label>
-												<div class="input-a"><input type="text" value="" placeholder="--"></div>
-											</div>
-											<div class="srch-tab-right">
-												<label>Price</label>
-												<div class="input-a"><input type="text" value="" placeholder="--"></div>
-											</div>
-											<div class="clear"></div>
-										</div>
-										<!-- \\ -->
-										<!-- // -->
-										<div class="srch-tab-line no-margin-bottom">
-											<label>Property type</label>
-											<div class="select-wrapper">
-												<select class="custom-select">
-													<option>--</option>
-													<option>1</option>
-													<option>2</option>
-													<option>3</option>
-													<option>4</option>
-												</select>
-											</div>
-										</div>
-										<!-- \\ -->
-									</div>
+
 									<!-- \\ advanced \\ -->
 								</div>
 								<footer class="search-footer">
-									<input type="submit" value="Recherche" class="srch-btn"/>
-									<span class="srch-lbl">Advanced Search options</span>
+									<input type="submit" value="Recherche" class="srch-btn" />
 									<div class="clear"></div>
 								</footer>
 							</div>
@@ -249,11 +215,15 @@
 									<div class="srch-tab-line">
 										<div class="srch-tab-left">
 											<label>Country</label>
-											<div class="input-a"><input type="text" value="" placeholder="example: france"></div>
+											<div class="input-a">
+												<input type="text" value="" placeholder="example: france">
+											</div>
 										</div>
 										<div class="srch-tab-right">
 											<label>city</label>
-											<div class="input-a"><input type="text" value="" placeholder="vienna"></div>
+											<div class="input-a">
+												<input type="text" value="" placeholder="vienna">
+											</div>
 										</div>
 										<div class="clear"></div>
 									</div>
@@ -262,11 +232,17 @@
 									<div class="srch-tab-line">
 										<div class="srch-tab-left">
 											<label>Check in</label>
-											<div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+											<div class="input-a">
+												<input type="text" value="" class="date-inpt" placeholder="mm/dd/yy">
+												<span class="date-icon"></span>
+											</div>
 										</div>
 										<div class="srch-tab-right">
 											<label>Check out</label>
-											<div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+											<div class="input-a">
+												<input type="text" value="" class="date-inpt" placeholder="mm/dd/yy">
+												<span class="date-icon"></span>
+											</div>
 										</div>
 										<div class="clear"></div>
 									</div>
@@ -335,8 +311,8 @@
 									<!-- \\ advanced \\ -->
 								</div>
 								<footer class="search-footer">
-									<input type="submit" value="Recherche" class="srch-btn"/>
-									<span class="srch-lbl">Advanced Search options</span>
+									<input type="submit" value="Recherche" class="srch-btn" />
+									<span class="srch-lbl">Recherche Avancée</span>
 									<div class="clear"></div>
 								</footer>
 							</div>
@@ -349,11 +325,15 @@
 									<div class="srch-tab-line">
 										<div class="srch-tab-left">
 											<label>From</label>
-											<div class="input-a"><input type="text" value="" placeholder="Austria, vienna"></div>
+											<div class="input-a">
+												<input type="text" value="" placeholder="Austria, vienna">
+											</div>
 										</div>
 										<div class="srch-tab-right">
 											<label>to</label>
-											<div class="input-a"><input type="text" value="" placeholder="--"></div>
+											<div class="input-a">
+												<input type="text" value="" placeholder="--">
+											</div>
 										</div>
 										<div class="clear"></div>
 									</div>
@@ -362,11 +342,17 @@
 									<div class="srch-tab-line">
 										<div class="srch-tab-left">
 											<label>Departure</label>
-											<div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+											<div class="input-a">
+												<input type="text" value="" class="date-inpt" placeholder="mm/dd/yy">
+												<span class="date-icon"></span>
+											</div>
 										</div>
 										<div class="srch-tab-right">
 											<label>arrivals</label>
-											<div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+											<div class="input-a">
+												<input type="text" value="" class="date-inpt" placeholder="mm/dd/yy">
+												<span class="date-icon"></span>
+											</div>
 										</div>
 										<div class="clear"></div>
 									</div>
@@ -436,8 +422,8 @@
 									<!-- \\ advanced \\ -->
 								</div>
 								<footer class="search-footer">
-									<input type="submit" value="Recherche" class="srch-btn"/>
-									<span class="srch-lbl">Advanced Search options</span>
+									<input type="submit" value="Recherche" class="srch-btn" />
+									<span class="srch-lbl">Recherche Avancée</span>
 									<div class="clear"></div>
 								</footer>
 							</div>
@@ -774,12 +760,12 @@
 										<p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in.
 											Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur, eu tempus
 											mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
-										<p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in
-											purus. Nullam quis lacus nisl.
+										<p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus.
+											Nullam quis lacus nisl.
 											<br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse eu libero odio.
 										</p>
-										<p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in
-											purus. Nullam quis lacus nisl.
+										<p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus.
+											Nullam quis lacus nisl.
 											<br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
 									</div>
 								</div>
