@@ -250,6 +250,25 @@ button.srch-btn {cursor: pointer; font-family: 'Montserrat'; padding-top: 5px; f
     display: block;
     transform: rotate(3deg);
   }
+
+  .slogan{
+      text-align: center;
+  }
+  .service-section{
+      background: white;
+      padding-top: 2em;
+      padding-bottom: 2em;
+  }
+
+  .services{
+      padding: 1.5em;
+      transition: transform 200ms;
+  }
+  .services:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
 .reference:hover{
     -webkit-filter: none; /* Safari 6.0 - 9.0 */
     filter: none;
