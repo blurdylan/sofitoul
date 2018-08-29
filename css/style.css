@@ -59,8 +59,8 @@ padding: 0.3em;
 
 @import url('https://fonts.googleapis.com/css?family=Assistant|Philosopher');
 .banner-slide{
-    -webkit-filter:  brightness(60%); /* Safari 6.0 - 9.0 */
-    filter: brightness(60%) !important;
+    /* -webkit-filter:  brightness(60%);
+    filter: brightness(60%) !important; */
 }
 .service-title{
     color:red;
